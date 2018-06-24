@@ -5,6 +5,7 @@ class Loops {
         //while loops
         def count = 0
         while (count < 10) {
+            if(count == 5) break
             println "Count now is at $count"
             ++count
 
